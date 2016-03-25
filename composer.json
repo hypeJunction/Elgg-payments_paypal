@@ -1,0 +1,29 @@
+{
+	"name": "hypejunction/payments_paypal",
+	"type": "elgg-plugin",
+	"description": "PayPal Adaptive Payments for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "paypal", "payments", "adaptive payments"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"hypejunction/payments": "*",
+		"paypal/adaptivepayments-sdk-php": "*"
+	},
+	"require-dev": {
+		"composer/installers": "1.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+
